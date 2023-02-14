@@ -1,0 +1,38 @@
+.component-title{
+    display:flex;
+    flex-direction:row;
+}
+.component-title-right{
+     display:flex;
+    flex-direction:row; 
+    position:absolute;
+    right:0;  
+}
+
+.component-title-name{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+color: #3F4856;
+}
+.component-title-bar{
+
+}
+.component-title-calander{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 40px;
+text-align: right;
+color: #3F4856;
+margin-left: 19px;
+}
+.component-title-bar{
+    border: 1px solid #3F4856;
+    margin-left: 8px;
+    margin-right: 8px;
+    height: 40px;
+}

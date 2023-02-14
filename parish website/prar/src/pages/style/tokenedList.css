@@ -1,0 +1,11 @@
+.tokened-list{
+    
+}
+.tokened-list-body{
+    background-color: #FFFFFF;
+}
+.tokened-list-head-bar{
+opacity: 0.1;
+border: 1px solid #1A3564;
+/* width:100%; */
+}

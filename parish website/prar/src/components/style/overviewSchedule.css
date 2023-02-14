@@ -1,0 +1,75 @@
+.overview-scheduler{
+    min-width: 0.5rem;  
+}
+
+.overview-scheduler-header{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 5px;
+    max-width: 888px;
+    max-height: 284px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.overview-schedule{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 0; 
+    
+}
+.overview-upcoming-text{
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #3F4856;
+margin-left: 24px;
+}
+.overview-schedule-text{
+    font-family: 'Manrope';
+    color: #2574FF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;    
+    letter-spacing: 0.16px;       
+}
+.overview-schedule-arrow{
+    margin-right: 28px;
+    margin-left:14px;
+}
+.overview-header-bottomline{
+    border-bottom: 1px solid #1A3564;
+    opacity: 0.1;
+}
+.overview-header-column{
+    display: flex;
+    flex-direction: row;
+}
+.overview-header-column-text{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+    color: #252525;
+    opacity: 0.4; 
+    margin: 8px; 
+}
+.overview-header-column-name{
+    min-width: 11rem;
+}
+.overview-header-column-date{
+    min-width: 10rem;
+}
+.overview-header-column-time{
+    min-width: 8rem;
+}
+.overview-header-column-action{
+    min-width: 13rem;
+}

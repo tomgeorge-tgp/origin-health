@@ -1,0 +1,30 @@
+.overview-device{
+background: #FCFCFC;
+opacity: 0.8;
+box-shadow: 12px 12px 24px rgba(54, 54, 54, 0.05);
+border-radius: 8px;
+min-width: 209px;
+min-height: 190px;
+display: flex;
+flex-direction: column;
+justify-content:center;
+align-items:center;
+}
+.overview-device-name{
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.16px;
+color: #3F4856;
+}
+.overview-header-device{
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+color: #9B9FA6;
+margin: 24px;
+}

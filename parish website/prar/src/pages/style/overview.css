@@ -1,0 +1,42 @@
+.overview-header{
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+color: #3F4856;
+opacity: 0.5;
+margin:40px;
+}
+
+.overview-card-container{
+    display: flex;
+    flex-direction: column;
+    margin:0px;
+    align-items: center;
+}
+.overview-row{
+    display: flex;
+    flex-direction:row;
+    gap: 12px;
+    justify-content:flex-start;
+    align-items:center;
+    flex-wrap: wrap; 
+    margin:0;
+}
+.overview-col{
+    display: flex;
+    flex-direction: column;
+    margin-right:16px;
+    margin-left: 0px;
+}
+
+.overview-bottom{
+    display: flex;
+    flex-direction:row;
+    gap: 18px;
+    justify-content:flex-start;
+    align-items:center;
+    flex-wrap: wrap; 
+    /* width: 100%; */
+}

@@ -1,0 +1,42 @@
+.side-bar-container{
+    width:224px;
+    height:100%;
+    background-color: rgba(252, 252, 252, 1);
+    margin-right:40px;
+}
+.side-bar-option{
+    width:100%;
+    height:58px;
+    
+}
+.side-bar-option p{
+margin-left: 40px;
+padding-top:16px; 
+margin-top: 0px; 
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+color: #3F4856;
+}
+.side-bar-option-selected{
+    width:100%;
+    height:58px;
+    background: #3F4856; 
+}
+.side-bar-option-selected p{
+margin-left: 40px;
+padding-top:16px; 
+margin-top: 0px; 
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 26px;
+color: #FFFFFF;
+}
+.side-bar-line{
+    opacity: 0.1;
+    border: 1px solid #3F4856;
+}

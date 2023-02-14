@@ -1,0 +1,86 @@
+.overview-appointment{
+    /* max-width: 20rem; */
+    background: #FCFCFC;
+    border-radius: 5px;
+    padding-right:40px;
+}
+.overview-appointment-body{
+    display: flex;
+    flex-direction: row;
+}
+.overview-appointment-scheduler{
+    display: flex;
+    flex-direction: row;
+}
+.overview-appointment-meeting{
+    background: #3F4856;
+    box-shadow: 12px 12px 24px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    min-width:128px;
+    min-height:104px;
+    padding: 10px;
+    text-align: center;
+    padding-top: 24px;
+    margin-right:8px;
+
+}
+.overview-appointment-schedule{
+    background: #FFFFFF;
+    border: 1px solid #3F4856;
+    box-shadow: 12px 12px 24px rgba(0, 0, 0, 0.05);
+    border-radius: 5px; 
+    min-width:128px; 
+    min-height:104px;
+    padding: 24px;
+    text-align: center;
+    padding-top: 24px;
+}
+.overview-appointment-laptop{
+    margin-right:22px;
+    
+}
+.overview-appointment-laptop-img{
+    
+}
+
+.overview-appointment-header{
+    font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #3F4856;
+margin-bottom: 16px;
+padding-top: 24px;
+margin-left:24px;
+}
+
+.overview-appointment-text{
+    font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+color: #3F4856;
+margin-bottom: 16px;
+}
+.overview-appointment-start-text{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 18px;
+text-align: center;
+letter-spacing: 0.16px;
+color: #FFFFFF;
+}
+.overview-appointment-schedule-text{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 18px;
+text-align: center;
+letter-spacing: 0.16px;
+color: #3F4856;
+}

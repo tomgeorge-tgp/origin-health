@@ -1,0 +1,25 @@
+.add-device{
+background: #FCFCFC;
+border: 1px dashed #2574FF;
+opacity: 0.8;
+box-shadow: 12px 12px 24px rgba(54, 54, 54, 0.05);
+border-radius: 8px;
+min-width: 209px;
+min-height: 190px;
+display: flex;
+flex-direction: column;
+justify-content:center;
+align-items:center;
+}
+
+.add-device-text{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    
+    letter-spacing: 0.16px;
+    
+    color: #2574FF;
+}
