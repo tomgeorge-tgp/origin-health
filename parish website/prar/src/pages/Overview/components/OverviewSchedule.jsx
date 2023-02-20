@@ -1,6 +1,6 @@
 import "./style/overviewSchedule.css";
-import device from "../assets/device.png";
-import rightArrowBlue from "../assets/rightArrowBlue.svg";
+import device from "../../../assets/device.png";
+import rightArrowBlue from "../../../assets/rightArrowBlue.svg";
 import OverviewScheduleRow from "./OverviewScheduleRow";
 
 import  OverviewSchedulePerson from "./OverviewSchedulePerson";

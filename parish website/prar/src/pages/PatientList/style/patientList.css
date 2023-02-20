@@ -1,0 +1,11 @@
+.patient-list{
+    
+}
+.patient-list-body{
+    background-color: #FFFFFF;
+}
+.patient-list-head-bar{
+opacity: 0.1;
+border: 1px solid #1A3564;
+/* width:100%; */
+}

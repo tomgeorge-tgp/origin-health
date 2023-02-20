@@ -1,0 +1,68 @@
+.message-popup{
+    position:absolute;
+    z-index: 100;
+    min-width: 560px;
+    height: 872px;
+    right: 10px;
+    top: 78px;
+    background: #FCFCFC;
+    box-shadow: 1px 1px 14px rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+    padding-left: 32px;
+    overflow-y: auto;
+}
+.message-popup-header
+{
+   display: flex;
+   flex-direction: row;
+   position:relative
+}
+.message-popup-header-icons{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 10px;
+    
+}
+.message-popup-header-icons img{
+    margin: 24px;
+}
+.message-popup-header p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 20px;
+    color: #3F4856;
+}
+.popup-inner{
+    position:relative;
+    padding:32px;
+    width:100%;
+    max-width: 640px;
+    background-color:white;
+
+}
+
+.popup-inner .close-btn{
+    position:absolute;
+    top:16px;
+    right:16px;
+
+}
+.message-pop-up-see-all{
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        color: #2574FF;
+        margin-top: 8px;
+    
+}
+.message-pop-end-bar{
+    margin-top: 5px;
+    border-top: 0.5px solid #D9D9D9;
+    margin-bottom: 0;
+}

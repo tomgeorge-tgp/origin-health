@@ -1,11 +1,11 @@
 import "./style/overview.css";
-import OverviewCard from "../components/OverviewCard";
-import OverviewDeviceCard from "../components/OverviewDeviceCard";
-import OverviewSchedule from "../components/OverviewSchedule";
-import OverviewAppointment from "../components/OverviewAppointment";
-import AddDeviceCard from "../components/AddDeviceCard";
-import downArrow from "../assets/downArrow.svg";
-import search from "../assets/search.svg";
+import OverviewCard from "./components/OverviewCard";
+import OverviewDeviceCard from "./components/OverviewDeviceCard";
+import OverviewSchedule from "./components/OverviewSchedule";
+import OverviewAppointment from "./components/OverviewAppointment";
+import AddDeviceCard from "./components/AddDeviceCard";
+import downArrow from "../../assets/downArrow.svg";
+import search from "../../assets/search.svg";
 import {useState} from 'react';
 // import {Link,Navigate,useNavigate,useLocation} from "react-router-dom"
 function Overview()

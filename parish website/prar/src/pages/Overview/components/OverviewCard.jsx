@@ -1,6 +1,6 @@
 import "./style/overviewCard.css";
-import rightArrow from "../assets/rightArrow.svg";
-import search from "../assets/search.svg";
+import rightArrow from "../../../assets/rightArrow.svg";
+import search from "../../../assets/search.svg";
 import {useState} from 'react';
 // import {Link,Navigate,useNavigate,useLocation} from "react-router-dom"
 function OverviewCard()

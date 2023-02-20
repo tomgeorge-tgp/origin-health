@@ -1,6 +1,6 @@
 import "./style/tokenedListHeader.css";
-import sort from "../assets/sort.svg";
-import search from "../assets/search.svg";
+import sort from "../../../assets/sort.svg";
+import search from "../../../assets/search.svg";
 import {useState} from 'react';
 // import {Link,Navigate,useNavigate,useLocation} from "react-router-dom"
 function TokenedListHeader()

@@ -1,9 +1,9 @@
-import "./style/overviewDeviceCard.css";
-import device from "../assets/device.png";
-import search from "../assets/search.svg";
+import "./style/overviewScheduleRow.css";
+import device from "../../../assets/device.png";
+import search from "../../../assets/search.svg";
 import {useState} from 'react';
 // import {Link,Navigate,useNavigate,useLocation} from "react-router-dom"
-function OverviewDeviceCard()
+function OverviewScheduleRow()
 {
     // const location=useLocation();
     // const navigate = useNavigate(); 
@@ -16,4 +16,4 @@ function OverviewDeviceCard()
          </div>
     </>);
 }
-export default OverviewDeviceCard;
+export default OverviewScheduleRow;

@@ -1,33 +1,15 @@
 
 import { useEffect,useState } from 'react';
-import "./style/prar.css";
+import "./prar.css";
 import SideBar from "../components/SideBar";
 import TitleBar from "../components/TitleBar";
-import Overview from "./Overview";
-import TokenedList from "./TokenedList";
-import Appointments from "./Appointments";
-import PatientList from "./PatientList";
+import Overview from "./Overview/Overview";
+import TokenedList from "./TokenedList/TokenedList";
+import Appointments from "./Appointments/Appointment";
+import PatientList from "./PatientList/PatientList";
+import Message from './message/Message';
 
-// import Cards from  "./components/Cards"
-// import {Link,Navigate,useNavigate,useLocation} from "react-router-dom"
 
-// function HostelCard({hostels}){
-//     const location=useLocation();
-//     const navigate = useNavigate(); 
-//     return hostels.map((hostel, index) =>{
-//        return(
-//        <div key={index} className="col-sm">
-//     <div onClick={()=>{
-//         console.log("click");
-//         navigate("/hostel" ,{state:hostel});
-//     }}>
-//     <Cards data={hostel}/>
-//     </div> 
-//     </div>
-//        )
-//     });
-   
-// }
 
 function Prar(){
 
@@ -37,18 +19,21 @@ function Prar(){
         <TitleBar/>
         {/* <br></br> */}
         <div className="body-container">
-        <div className="side-bar"><SideBar handle={(e)=>{console.log(e)}} /></div>
+        <div className="side-bar"><SideBar handle={(e)=>{setSelectedOption(e)}} /></div>
         <div className="main-body">
-            {/* <Overview/> */}
-            {/* <TokenedList/> */}
-            {/* <PatientList/>  */}
-           <Appointments/>
+            { selectedOption==="overview" ? <Overview/>: null}
+            { selectedOption==="tokened-list" ? <TokenedList/> : null}
+            { selectedOption==="patient's-list" ? <PatientList/>  : null}
+            { selectedOption==="appointments" ?<Appointments/>  : null}
+            { selectedOption==="pharmacy" ? <Message/>  : null}
+            { selectedOption==="payments" ? <PatientList/>  : null}
+            { selectedOption==="report" ? <PatientList/>  : null}
+            {/* */}
+            {/* */}
+           
         </div>
 
-        {/* <div className="row">
-        {/* {hostels.length > 0 ? <HostelCard hostels={hostels}/> : <p className="m-4 text-center w-100">No hostel data!</p>} 
-        </div> 
-        */}
+       
 
         </div>
 

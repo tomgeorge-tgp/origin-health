@@ -1,7 +1,7 @@
 import "./style/overviewSchedule.css";
 import "./style/overviewSchedulePerson.css";
-import edit from "../assets/edit.svg";
-import msg from "../assets/msg.svg";
+import edit from "../../../assets/edit.svg";
+import msg from "../../../assets/msg.svg";
 import {useState} from 'react';
 // import {Link,Navigate,useNavigate,useLocation} from "react-router-dom"
 function OverviewSchedulePerson()

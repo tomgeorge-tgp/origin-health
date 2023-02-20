@@ -1,0 +1,16 @@
+.tokened-list{
+    
+}
+.message-body{
+    background-color: #FFFFFF;
+    display:flex;
+    flex-direction: row;
+}
+.message-head-bar{
+opacity: 0.1;
+border: 1px solid #1A3564;
+/* width:100%; */
+}
+.message-person{
+    
+}

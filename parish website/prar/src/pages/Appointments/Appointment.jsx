@@ -1,12 +1,12 @@
-import "./style/tokenedList.css";
-import eye from "../assets/eye.svg";
-import search from "../assets/search.svg";
-import TokenedListHeader from "../components/TokenedListHeader"
-import ComponentTitle from "../components/ComponentTitle";
-import TablePatient from "../components/TablePatient"
+import "./style/appointment.css";
+import device from "../../assets/device.png";
+import search from "../../assets/search.svg";
+import AppointmentHeader from "./components/AppointmentHeader"
+import ComponentTitle from "../../components/ComponentTitle";
+import TableComponent from "./components/TableAppointment"
 import {useState} from 'react';
 // import {Link,Navigate,useNavigate,useLocation} from "react-router-dom"
-function Appointments()
+function TokenedList()
 {
     // const location=useLocation();
     // const navigate = useNavigate(); 
@@ -15,14 +15,14 @@ function Appointments()
     
          <div className="tokened-list">
          <ComponentTitle name="Appointment"/>
-         <div className="tokened-list-body">
-           <TokenedListHeader />
-         <div className="tokened-list-head-bar"></div>
-         <TablePatient />
+         <div className="appointment-body">
+           <AppointmentHeader/>
+         <div className="appointment-head-bar"></div>
+         <TableComponent/>
          </div>
          {/* <div className="overview-device-img"> <img  src={device} alt="device" /></div>
          <p className="overview-device-name">ASUSA Spectre</p> */}
          </div>
     </>);
 }
-export default Appointments;
+export default TokenedList;

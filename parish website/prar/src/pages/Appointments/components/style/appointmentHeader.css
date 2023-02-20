@@ -1,0 +1,173 @@
+.appointment-header{
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    /* background-color: #F5F5F5; */
+    background-color:#FFFFFF;
+    padding: 24px;
+    /* width: 100%; */
+    align-items: center;
+}
+.appointment-header-radio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.appointment-header-search{
+    
+background: #F7F7F7;
+opacity: 0.5;
+border: 1px solid #ECEDEE;
+border-radius: 5px;
+/* width:100%; */
+}
+.appointment-header-search-input{
+/* width:100%;    */
+width:24rem; 
+height: 36px;
+margin-left:0px;
+background: #F7F7F7;
+opacity: 0.5;
+border: 1px solid #ECEDEE;
+border-radius: 5px;
+}
+.appointment-header-radio-text
+{
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #3F4856;
+margin-left: 8px;
+margin-right:24px;
+}
+.appointment-header-radio-button{
+    border: 2px solid #004c97;
+    accent-color:#2574FF ;
+    width:18px;
+    height:18px;
+}
+.appointment-header-right{
+
+}
+.appointment-header-selector{
+    width: 188px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #ECEDEE;
+    border-radius: 5px;
+    margin-left:24px;
+    margin-right:24px;
+    /* padding: 7px,10px,7px,16px; */
+
+}
+.appointment-header-selector-option{
+    margin-top: 7px;
+    margin-left: 16px;
+}
+
+
+.appointment-header-sort-ion{
+    position:absolute;
+    right:0;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+/* .form-tokened-list{
+    display: flex;
+    flex-direction: row;
+    
+} */
+
+
+.appointment-create-btn{
+    width: 182px;
+    height: 40px;
+    background: #3F4856;
+    border-radius: 5px;
+    position: absolute;
+    right: 24px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+
+
+
+}
+  .appointment-calander-text
+  {
+      font-family: 'IBM Plex Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 26px;
+      color: #3F4856;
+      align-items: center;
+      margin-top: 8px;
+    }
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 56px;
+        height: 32px;
+        margin-right:24px;
+        /* margin-top: ; */
+      }
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 24px;
+    width: 24px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }

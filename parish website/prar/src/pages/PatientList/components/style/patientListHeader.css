@@ -1,0 +1,65 @@
+.patient-list-header{
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    /* background-color: #F5F5F5; */
+    background-color:#FFFFFF;
+    /* width: 100%; */
+}
+.patient-list-header-radio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.patient-list-header-search{
+    
+background: #F7F7F7;
+opacity: 0.5;
+border: 1px solid #ECEDEE;
+border-radius: 5px;
+/* width:100%; */
+}
+.patient-list-header-search-input{
+/* width:100%;    */
+width:24rem; 
+height: 36px;
+margin-left:0px;
+background: #F7F7F7;
+opacity: 0.5;
+border: 1px solid #ECEDEE;
+border-radius: 5px;
+}
+.patient-list-header-radio-text
+{
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #3F4856;
+margin-left: 8px;
+margin-right:24px;
+}
+.patient-list-header-radio-button{
+    border: 2px solid #004c97;
+    accent-color:#2574FF ;
+    width:18px;
+    height:18px;
+}
+.patient-list-header-right{
+
+}
+.radio-input{
+
+}
+.patient-list-header-sort-ion{
+    position:absolute;
+    right:0;
+    margin-top: 10px;
+ margin-right: 20px;
+}
+/* .form-tokened-list{
+    display: flex;
+    flex-direction: row;
+    
+} */

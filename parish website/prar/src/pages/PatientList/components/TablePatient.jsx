@@ -1,8 +1,8 @@
 import React from 'react';
 // import { MDBTable, MDBTableHead, MDBTableBody } from 'mdb-react-ui-kit';
 import "./style/tableComponent.css";
-import threeDots from "../assets/ThreeDots.svg";
- function TableTokened() {
+import threeDots from "../../../assets/ThreeDots.svg";
+ function TablePatient() {
   const data = [
     { id: "01",token:"T-0001",name: "Adnan Rafiq",uid:"0000 0000 0000",test:"all",vitalInference:"normal",time:"12:30 P.M" ,status:"done"},
     { id: "02",token:"T-0002",name: "Amjad Ali",uid:"0000 0000 0000",test:"ECG,Heart Rate",vitalInference:"Heart rate adnormally high",time:"12:30 P.M" ,status:"inprogress"},
@@ -22,33 +22,27 @@ import threeDots from "../assets/ThreeDots.svg";
     <thead>
       <tr>
        <th>Sr.No</th>
-       <th>Token No.</th>
        <th>Name</th>
        <th>UID</th>
        <th>Tests</th>
        <th>Vital Inference</th>
-       <th>Time</th>
-       <th>Status</th>
+       <th>Last Consultation</th>
+       <th>Next Consultation</th>
       </tr>
     </thead>
     <tbody>
     {data.map((s) => (
       <tr>
             <td data-label="Sr.No">{s.id}</td>
-            <td data-label="Token No.">{s.token}</td>
             <td data-label="Name">{s.name}</td>
             <td data-label="UID">{s.uid}</td>
             <td data-label="Tests">{s.test}</td>
             <td data-label="Vital Inference">{s.vitalInference}</td>
-            <td data-label="Time">12:30 P.M.<span>A tag</span></td>
-            <td data-label="Status">
-            <select name="pets" id="pet-select">
-            <option value="Done">Done</option>
-            <option value="in-progress">In progress</option>
-            <option value="in-queue">In queue</option>
-            </select>
-            </td>
+            <td data-label="Last Consultation">06 Feb,2023</td>
+            <td data-label="Next Consultation">06 Feb,2023 <span>A tag</span></td>
             <td><img className="search-ion" src={threeDots} alt="threedot"/> </td>
+
+        
         </tr> 
       ))}
     </tbody>
@@ -56,4 +50,4 @@ import threeDots from "../assets/ThreeDots.svg";
 
 
   )}
-  export default TableTokened;
+  export default TablePatient;

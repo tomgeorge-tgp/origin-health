@@ -1,6 +1,6 @@
 import "./style/addDeviceCard.css";
-import device from "../assets/device.png";
-import search from "../assets/search.svg";
+import device from "../../../assets/device.png";
+import search from "../../../assets/search.svg";
 import {useState} from 'react';
 // import {Link,Navigate,useNavigate,useLocation} from "react-router-dom"
 function AddDeviceCard()

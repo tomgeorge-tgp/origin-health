@@ -1,9 +1,9 @@
 import "./style/tokenedList.css";
-import device from "../assets/device.png";
-import search from "../assets/search.svg";
-import TokenedListHeader from "../components/TokenedListHeader"
-import ComponentTitle from "../components/ComponentTitle";
-import TableComponent from "../components/TableTokened"
+import device from "../../assets/device.png";
+import search from "../../assets/search.svg";
+import TokenedListHeader from "./components/TokenedListHeader"
+import ComponentTitle from "../../components/ComponentTitle";
+import TableComponent from "./components/TableTokened"
 import {useState} from 'react';
 // import {Link,Navigate,useNavigate,useLocation} from "react-router-dom"
 function TokenedList()

@@ -1,7 +1,7 @@
 import "./style/overviewAppointment.css";
-import laptop from "../assets/laptop.svg";
-import meeting from "../assets/meeting.svg";
-import schedule from "../assets/schedule.svg";
+import laptop from "../../../assets/laptop.svg";
+import meeting from "../../../assets/meeting.svg";
+import schedule from "../../../assets/schedule.svg";
 import {useState} from 'react';
 // import {Link,Navigate,useNavigate,useLocation} from "react-router-dom"
 function OverviewAppointment()

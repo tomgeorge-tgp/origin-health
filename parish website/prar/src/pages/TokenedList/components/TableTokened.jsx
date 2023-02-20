@@ -1,7 +1,7 @@
 import React from 'react';
 // import { MDBTable, MDBTableHead, MDBTableBody } from 'mdb-react-ui-kit';
 import "./style/tableComponent.css";
-import threeDots from "../assets/ThreeDots.svg";
+import threeDots from "../../../assets/ThreeDots.svg";
  function TableTokened() {
   const data = [
     { id: "01",token:"T-0001",name: "Adnan Rafiq",uid:"0000 0000 0000",test:"all",vitalInference:"normal",time:"12:30 P.M" ,status:"done"},
