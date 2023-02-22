@@ -4,6 +4,7 @@
     display:flex;
     flex-direction:row;
     margin-top: 16px;
+    background: #FCFCFC;
 }
 
 
@@ -41,12 +42,14 @@
     line-height: 20px;
     text-align: right;
     color: #9A9B9D;
+    margin-bottom: 16px;
 }
 .message-person-seen{
   height: 8px;
   width: 8px;
   border-radius: 4px;
-background: #256CFE;
+  background: #256CFE;
+  margin-bottom: 16px;
 
 }
 

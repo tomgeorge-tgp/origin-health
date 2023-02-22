@@ -2,9 +2,21 @@
     
 }
 .message-body{
-    background-color: #FFFFFF;
-    display:flex;
-    flex-direction: row;
+    background: #FFFFFF;
+    position: relative;
+    display:grid;
+    grid-template-columns: 3fr 5fr 3fr;
+    /* grid-column-gap: 20px; */
+    grid-row-gap: 20px;
+    /* justify-items: stretch;
+    align-items: stretch; */
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    color: #80879E;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #80879E;
 }
 .message-head-bar{
 opacity: 0.1;
@@ -12,5 +24,231 @@ border: 1px solid #1A3564;
 /* width:100%; */
 }
 .message-person{
+    position: relative;
+}
+.message-Left{
+    padding-left:8px;
+    padding-top: 8px;
+    background: #FDFDFD;
+   
+}
+.message-search-form-box{
+    width: 320px;
+    height: 40px;
+    background: #FFFFFF;
+    opacity: 0.8;
+    border: 1px solid #ECEDEE;
+    border-radius: 5px;
+    padding :2px;
+}
+.message-left-search-input{
+    background: #FFFFFF;
+    opacity: 0.8;
+    border: 1px solid #ECEDEE;
+    border-radius: 5px;
+    height: 40px;
+    width:70%;
+}
+.three-bar{
+    float: right;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+.message-Left-header-bar{
+    border: 1px solid #E1E1E1;
+    transform: rotate(180deg);
+    margin-top: 8px;
+}
+.message-Left-person-bar{
+    margin-top: 10px;
+    border: 1px solid #E1E1E1;
+    transform: rotate(180deg);
+    overflow-y: auto;
+}
+.message-text-area{
+    margin-left: 0;
+    position: relative;
+}
+.message-text-area-header{
+    display:flex;
+    /* justify-content: center; */
+    align-self:center;
+    height: 64px;
+    background: #FDFDFD;
+    /* padding-bottom: 8px; */
+    border-bottom:1px solid #E1E1E1;
+    /* padding: 8px,15px,8px,15px;  */
+    margin-bottom: 32px;
+
+}
+.message-text-area-header img{
+    border-radius: 24px;
+    height:48px;
+    width:48px;
+    margin-top: 8px;
+    margin-left: 12px;
+    margin-bottom: 8px;
+    margin-right: 24px;
+    /* top right bottom left */
+   
+}
+.message-text-area-header p{
+    
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #3F4856;
+}
+.message-text-area-body{
+
+}
+
+.message-text-area-bottom{
+    background: #DBDEE3;
+    opacity: 0.5;
+    height: 104px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.message-text-area-bottom-text{
+    background: #FFFFFF;
+    border-radius: 5px;
+    width:70%;
+    height:50%;
+    margin-right: 32px;
+    margin-left:32px ;
+}
+.message-text-area-recever{
+    background: #F9F9F9;
+    border-radius: 5px;
+    max-width:356px;
+    min-height:40px;
+    float:left;
+    margin-bottom: 16px;
+    margin-left: 24px;
+    padding: 8px;
+
+}
+.message-text-area-sender{
+    background: #DBDEE3;
+    border-radius: 5px;
+    max-width:356px;
+    min-height:40px;
+    float: right;
+    margin-bottom: 16px;
+    margin-right: 24px;
+    padding: 8px;
+
+}
+
+.message-person-details{
+    background-color: #FBFBFB;
+    
+    
+}
+.message-person-details-header{
+    display: flex;
+    padding-left: 16px;
+    padding-top: 24px;
+}
+.message-person-details-img{
+    height: 72px;
+    width:72px;
+    border-radius:36px;
+    margin-right: 24px;
+}
+.message-person-details-name{
+    
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #3F4856;
+
+}
+.message-person-details-uid{
+ 
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #80879E;
+}
+.message-person-details-uid-number{
+    color: #3F4856;
+    margin-right: 6px;
+}
+.message-person-details-bar{
+    border: 1px solid #E1E1E1;
+    transform: rotate(-180deg);
+}
+.message-person-details-dec{
+    display: flex;
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #80879E;
+    padding-left: 16px;
+    padding-top: 16px;
+}
+.message-person-details-dec-blood{
+    font-weight: 700;
+    color: #3F4856;
+}
+.message-person-details-dec-age{
+    font-weight: 700;
+    color: #3F4856;
+}
+.message-person-details-dec-bar{
+    border: 1px solid #E1E1E1;
+    transform: rotate(180deg);
+    margin: 16px;
+}
+.message-person-details-contact-title{
+    margin: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #80879E; 
+}
+
+.message-person-details-contact{
+    padding-left: 16px;
+    padding-top: 16px;
+}
+.message-person-details-contact-phone{
+    display: flex;
+    color: #3F4856;
+}
+.message-person-details-contact-phone img{
+    margin-right: 14px;
+}
+
+.message-person-details-contact-email{
+    display: flex;
+    color: #3F4856;
+}
+.message-person-details-contact-email img{
+    margin-right: 14px;
+}
+.message-person-details-medical{
+    padding-left: 16px;
+    padding-top: 16px;
+}
+.message-person-details-medical li{
+    color: #3F4856;
+}
+.message-person-details-bottom{
+    padding-left: 16px;
+    padding-top: 16px;   
+}
+.message-person-details-bottom p{
+    margin: 4px;
+}
+.message-person-details-appointment{
+    display: flex;
     
 }
