@@ -1,0 +1,33 @@
+.Dashboard-page{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    
+}
+
+
+.Dashboard-page-body{
+    flex:1;
+    margin-left: 24px;
+}
+
+
+
+.Dashboard-side-bar-component{
+    background-color:#fff;
+    max-width: 310px;
+    max-height:50px;
+    padding:12px;
+    display: flex;
+    margin-bottom: 12px;
+    border-radius: 5px;
+}
+.Dashboard-side-bar-component-selected{
+    background-color:#32c36c;
+    max-width: 310px;
+    max-height:50px;
+    padding:12px;
+    display: flex;
+    margin-bottom: 12px;
+    border-radius: 5px;
+}

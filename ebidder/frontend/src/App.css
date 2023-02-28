@@ -1,0 +1,22 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&family=Montserrat&display=swap');
+
+html {
+  font-size: 100%;
+} /*16px*/
+
+:root {
+ 
+}
+body {
+    background: #f8fafc;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    line-height: 1.75;
+    color:  #0f172a;
+  }
