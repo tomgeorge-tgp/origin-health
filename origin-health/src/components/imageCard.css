@@ -1,0 +1,36 @@
+.competetion__type__card
+{
+    width:200px;
+    height: 200px;
+    background-color:rgba(7,54,86,1);
+    display:flex;
+    justify-content:center;
+    position: relative;
+    border-radius:20.58px;
+    flex-direction: column;
+    align-items: center;
+    /* scale:.75; */
+}
+/* .competetion__type__card{
+    box-shadow: drop-shadow(0px 0px 2px #5dcad8) drop-shadow(0px 0px 2px #5dcad8)    drop-shadow(0px 0px 1px #5dcad8) drop-shadow(0px 0px 9px#5DCAD8)    drop-shadow(0px 0px 1px #5dcad8) drop-shadow(0px 0px 1px #5dcad8);
+} */
+.image__competetion{
+    width: 80%;
+    height: 90%;
+    min-height:162px;
+    border-radius: 38.89px;
+}
+.image__container{
+    width: 190px;
+    height: 180px;
+    border-radius: 58.89px;
+    /* background-color:rgba(248, 252, 255, 1); */
+    
+}
+.title{
+    font-size: 1.25rem;
+    position: relative;
+    top:-9px;
+    color:rgba(248, 252, 255, 1) ;
+    font-weight: 700;
+}

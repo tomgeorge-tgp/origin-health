@@ -1,0 +1,7 @@
+.labels{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 10px;
+    border: 2px solid green;
+}
